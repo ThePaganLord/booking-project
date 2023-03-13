@@ -1,0 +1,285 @@
+.navbar {
+  /*background:#1b4297;*/
+  background: #1C4596 !important;
+  border: 0;
+  font-family: "Arial", serif;
+  color: white;
+}
+.navbar-collapse{
+	color: black;
+}
+.navbar-nav li a{
+	color: white !important;
+	font-weight: bold;
+	background-color:: #143271;
+}
+.navbar-nav li a:hover {
+    background-color: #143271;
+	color: white;
+}
+
+.navbar-nav li .dropdown-menu {
+    background-color: #1b4297;
+}
+
+.dropdown-menu, .nav-link,
+.icon-bar,
+.navbar .navbar-nav > .active > a, 
+.navbar .navbar-nav > .active > a:focus, 
+.navbar .navbar-nav > .active > a:hover {
+	color: #EC8923 !important;
+	background-color: #3E61A6 !important;
+	bottom:0;
+}
+
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #1b4297;
+    color: white;
+}
+
+.navbar-inverse{
+	color: white !important;
+}
+.navbar-toggle{
+	color:white !important;
+	background-color: #2863cb;
+}
+.container{
+	font-family: "Arial", serif;
+}
+.borderless table, .borderless tr, .borderless td, .borderless th {
+	border: none;
+	padding: 5px;
+}
+.borderless1 table, .borderless1 tr, .borderless1 td, .borderless1 th {
+	border: none;
+	padding: 1px;
+}
+.table, tr, td, th{
+	padding:5px;
+}
+.outline_table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.table_borders table, .table_borders tr, .table_borders td{
+	border-collapse: collapse !important;
+	border: 1px solid black !important;
+}
+
+.button {
+  background-color: #143271;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #143271;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.smallbutton {
+  background-color: #143271;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.smallbutton:hover {
+  background-color: #143271;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  cursor: pointer;
+  /*font-weight: bold;*/
+}
+
+
+
+.buttonCosting {
+  background-color: #143271;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buttonCosting:hover {
+  background-color: #143271;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.loginbutton {
+  background-color: #2772bf;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  margin-bottom: 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.loginbutton:hover {
+  background-color: #2772bf;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  margin-bottom: 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.forgotbutton {
+  background-color: #2772bf;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.forgotbutton:hover {
+  background-color: #2772bf;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  cursor: pointer;
+  /*font-weight: bold;*/
+}
+/* Benita 20221228 - Password */
+.tinybutton {
+  /*background-color: #143271;*/
+  background-color: #2772bf;
+  border: none;
+  color: white;
+  padding: 2px 5px;
+  margin-bottom: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tinybutton:hover {
+  /*background-color: #143271;*/
+  background-color: #2772bf;
+  border: none;
+  color: white;
+  padding: 2px 5px;
+  margin-bottom: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  cursor: pointer;
+  /*font-weight: bold;*/
+}
+.forgotbutton {
+  background-color: #2772bf;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1b4297;
+  color: white;
+  text-align: center;
+}
+
+.headings {
+  color: white !important;
+  font-weight: bold;
+}
+.heading {
+	font-weight: bold;
+}
+.colheadings {
+  color: black !important;
+  font-weight: bold;
+}
+
+/* Benita 20220422 - try this to "freeze" the headings */
+th {
+  background: white;
+  position: sticky;
+  top: 0;
+}
